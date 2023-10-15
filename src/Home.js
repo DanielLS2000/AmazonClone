@@ -17,6 +17,7 @@ function Home() {
             image='https://images.tcdn.com.br/img/img_prod/1098943/caixa_de_papelao_ef7_34_5x51x16_5cm_1_und_4663_1_0a41a655f58015ec2f6b018e426d89c8.jpg'
             rating={5}></Product>
             {/* Product */}
+            <Product title='Bicicleta' price={8000} image='https://www.virtualbike.com.br/media/catalog/product/cache/1/image/800x/9df78eab33525d08d6e5fb8d27136e95/x/k/xks-perfil-preto-verde-27v_10.jpg' rating={4}/>
             {/* Product */}
         </div>
 
