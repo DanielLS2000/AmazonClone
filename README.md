@@ -21,4 +21,8 @@ List the main tools used in this project.
 
 ## Usage
 
-Still working on it
+First make sure you are in the project folder and have NodeJS, then just run:
+```
+  npm start
+```
+This should the localhost with the app.
