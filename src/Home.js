@@ -12,22 +12,44 @@ function Home() {
 
         <div className='home__row'>
             {/* Product */}
-            <Product title='Open Box' 
-            price={29.99} 
-            image='https://images.tcdn.com.br/img/img_prod/1098943/caixa_de_papelao_ef7_34_5x51x16_5cm_1_und_4663_1_0a41a655f58015ec2f6b018e426d89c8.jpg'
+            <Product title='ASUS TUF Gaming NVIDIA GeForce RTX™ 4070 Ti OC Edition Gaming Graphics Card' 
+            id={1}
+            price={849.99} 
+            image='https://m.media-amazon.com/images/I/81XIr69BtVL._AC_SY450_.jpg'
             rating={5}></Product>
-            {/* Product */}
-            <Product title='Bicicleta' price={8000} image='https://www.virtualbike.com.br/media/catalog/product/cache/1/image/800x/9df78eab33525d08d6e5fb8d27136e95/x/k/xks-perfil-preto-verde-27v_10.jpg' rating={4}/>
-            {/* Product */}
+
+            <Product id={2} title='Video Game Socks Funny Gaming Gifts - Unisex for Men, Women and Teen Gamers' price={11.99} image='https://m.media-amazon.com/images/I/91aSoykoIJL._AC_UL320_.jpg' rating={5}/>
+            
+            <Product 
+                id={1232}
+                title='Video Games T-Shirt Funny Gamer Tee for Console Gaming Fans T-Shirt'
+                price={19.99}
+                image='https://m.media-amazon.com/images/I/71xJm36bG-L._AC_UL320_.jpg'
+                rating={5}/>
         </div>
 
         <div className='home__row'>
-            {/* Product */}
-            {/* Product */}
+            <Product 
+                id={3}
+                title='Gunnar - Premium Premium Gaming and Computer Glasses - Blocks 65% - 98% Blue Light - Intercept'
+                price={69.99}
+                image='https://m.media-amazon.com/images/I/81LIseFe-sL._AC_UL320_.jpg'
+                rating={4}/>
+            <Product 
+                id={4}
+                title='CTEN Series Gaming Gloves - Great Comfort and Grip, Perfect Gaming Gloves for Sweaty Hands, Ideal Gamer Gloves for PC, VR Gloves'
+                price={19.99}
+                image='https://m.media-amazon.com/images/I/71Hp10V6tVL._AC_SX425_.jpg'
+                rating={3}/>
         </div>
 
         <div className='home__row'>
-            {/* Product */}
+            <Product 
+                id={5}
+                title='INNOCN 27G1H 27 Inch 240Hz 144Hz Gaming Monitor Full HD 1920 x 1080P Computer Monitor, FreeSync & G-Sync Support, Game Plus, Eye Care, VESA, DisplayPort, HDMI, Black'
+                price={184.99}
+                image='https://m.media-amazon.com/images/I/71Ihfi7CjlL._AC_UL320_.jpg'
+                rating={5}/>
         </div>
     </div>
   )

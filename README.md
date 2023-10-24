@@ -5,6 +5,7 @@ This is a clone of the Amazon landing page as well as some extra features. Still
 ## Table of Contents
 - [About](#about)
 - [Tools](#tools)
+= [Demo](#demo)
 - [How to use](#usage)
 
 ## About
@@ -18,6 +19,10 @@ List the main tools used in this project.
 - JavaScript
 - HTML/CSS
 - ReactJS
+- FireBase
+
+## Demo
+There is a demo hosted with Firebase at: https://clone-b5cdf.web.app/
 
 ## Usage
 
