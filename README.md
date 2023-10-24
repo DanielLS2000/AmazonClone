@@ -5,7 +5,7 @@ This is a clone of the Amazon landing page as well as some extra features. Still
 ## Table of Contents
 - [About](#about)
 - [Tools](#tools)
-= [Demo](#demo)
+- [Demo](#demo)
 - [How to use](#usage)
 
 ## About
