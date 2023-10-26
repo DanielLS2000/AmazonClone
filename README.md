@@ -1,16 +1,11 @@
 # AmazonClone
 
-This is a clone of the Amazon landing page as well as some extra features. Still working on it.
+This is a simple clone of the Amazon e-commerce store.
 
-## Table of Contents
-- [About](#about)
+## About
 - [Tools](#tools)
 - [Demo](#demo)
 - [How to use](#usage)
-
-## About
-
-This project tries to imitate the amazon main page, with some features like a itens basket and more
 
 ## Tools
 
@@ -19,15 +14,18 @@ List the main tools used in this project.
 - JavaScript
 - HTML/CSS
 - ReactJS
-- FireBase
+- Firebase
 
 ## Demo
-There is a demo hosted with Firebase at: https://clone-b5cdf.web.app/
+
+There is a demo hosted with Firebase at: https://clone-b5cdf.web.app/, click on the link to open it on your browser.
+![image](https://github.com/DanielLS2000/AmazonClone/assets/112213498/7eeeb879-ee1f-40bf-b187-4f152b9af790)
+
 
 ## Usage
 
-First make sure you are in the project folder and have NodeJS, then just run:
+First make sure you are in the project directory, then just run:
 ```
   npm start
 ```
-This should the localhost with the app.
+This should open the app on the [localhost](http://localhost:3000).
