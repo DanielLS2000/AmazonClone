@@ -1,9 +1,11 @@
 import React from 'react'
 import './Subtotal.css'
 import { useStateValue } from './StateProvider';
+import { useNavigate } from 'react-router-dom';
 
 function Subtotal() {
   const [{basket}, dispatch] = useStateValue();
+  const history = useNavigate();
   const total_price = basket.reduce((accumulator, item) => accumulator + item.price, 0);
 
   return (
@@ -15,7 +17,7 @@ function Subtotal() {
             <input type='checkbox'/>This order contains a gift
         </small>
 
-        <button>Proceed to Checkout</button>
+        <button onClick={e => history('/payment')}>Proceed to Checkout</button>
     </div>
   )
 }

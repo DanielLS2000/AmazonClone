@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import './App.css';
-import {Page_Home, Page_Checkout, Page_Login} from './Page';
+import {Page_Home, Page_Checkout, Page_Login, Page_Payment} from './Page';
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import { auth } from './FirebaseConfig';
 import { useStateValue } from './StateProvider';
@@ -31,9 +31,11 @@ function App() {
         <Routes>
           <Route path='/checkout' Component={Page_Checkout}/>
           
-          <Route path='/' Component={Page_Home}/>
-          
           <Route path='/login' Component={Page_Login}/>
+
+          <Route path='/' Component={Page_Home}/>
+
+          <Route path='/payment' Component={Page_Payment}/>
         </Routes>
       </div>
     </Router>
